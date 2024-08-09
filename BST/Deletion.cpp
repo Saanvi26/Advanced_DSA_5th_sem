@@ -21,7 +21,12 @@ TreeNode* Create(TreeNode* root, int data) {
     }
     return root;
 }
-
+TreeNode* deleteNode(TreeNode*root,int value){
+    if(root==NULL){
+        return root;
+    }
+    
+}
 
 int main (){
 int n;
@@ -37,6 +42,6 @@ int n;
     for (int i = 0; i < n; i++) {
         root = Create(root, arr[i]);
     }
-    
+
 
 }
