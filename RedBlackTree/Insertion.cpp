@@ -46,7 +46,6 @@ private:
             y->parent = node;
         return x;
     }
-
     Node *insertHelp(Node *root, int data)
     {
         bool f = false; 
@@ -211,3 +210,7 @@ int main()
     t.printTree();
     return 0;
 }
+// mid sem 1:
+// avl
+// red black
+// b tree
